@@ -1,0 +1,128 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(images/banner/banner1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0% 10%;
+}
+.heading{
+      text-align: end;
+}
+.hero-heading{
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.hero-text{
+    width: 525px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: end;
+}
+.hero-btn{
+    width: 160px;
+    height: 64px;
+    color: white;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.about{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 70px 0px;
+}
+.woman{
+    position: relative;
+}
+.back-color{
+    position: absolute;
+    top: 195px;
+    left: 23px;
+    width: 527.93px;
+    height: 527.93px;
+    background-color: rgba(241, 91, 34, 0.2);
+    border: none;
+    border-radius: 50%;
+    z-index: -1;
+}
+.about-text h2{
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 15px;
+}
+.about-text p{
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.about-list{
+    width: 349px;
+    height: 162px;
+    list-style-position: inside;
+    /* margin-bottom: 15px; */
+    list-style-image: url(images/icons/check1.png);
+}
+.plan{
+    padding-bottom: 100px;
+}
+.plan-heading{
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.plan-logos{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0px 250px;
+}
+.plan-logo{
+    text-align: center;
+}
+.plan-logo img{
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 20px;
+}
+.plan-logo h4{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.plan-logo p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
